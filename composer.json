@@ -1,0 +1,49 @@
+{
+    "name": "avlima/laravel-sms-mmcenter",
+    "version":"1.0.0",
+    "description": "MMCenter SMS notification service for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel sms",
+        "laravel notifications",
+        "laravel sms sender",
+        "laravel sms notifications",
+        "laravel sms api",
+        "laravel sms web api",
+        "laravel mmcenter",
+        "laravel mmenvio"
+    ],
+    "homepage": "https://github.com/avlima/laravel-sms-mmcenter",
+    "authors": [
+        {
+            "name": "Alberto",
+            "email": "albertovieiradelima@gmail.com",
+            "homepage": "https://github.com/avlima",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "illuminate/notifications": ">=5.3",
+        "illuminate/queue": ">=5.3",
+        "illuminate/support": ">=5.3",
+        "illuminate/http": ">=5.3",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": ">=6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avlima\\SmsMMCenter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Avlima\\SmsMMCenter\\Test\\": "tests"
+        }
+    }
+}
