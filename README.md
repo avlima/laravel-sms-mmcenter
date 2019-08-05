@@ -35,6 +35,15 @@ php artisan vendor:publish --provider="Avlima\SmsMMCenter\Providers\SmsMMCenterS
 ```
 
 ## Configuration
+Add the keys in `.env`:
+```
+MMCENTER_USER=
+MMCENTER_PASSWORD=
+MMCENTER_TIMEOUT=60
+MMCENTER_URL=http://www.mmcenter.com.br/mmenvio.aspx,
+MMCENTER_OPERATION=ENVIO
+MMCENTER_ROUTE=
+```
 Once the config file is published, open `config/sms-mmcenter.php`
 
 ## Usage
